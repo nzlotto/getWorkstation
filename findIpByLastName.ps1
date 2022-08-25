@@ -11,7 +11,7 @@
 set-executionpolicy -executionpolicy bypass -force
 import-module activedirectory
 
-clear
+Clear-Host
 while($true){
 write-host "You may hit CTRL+C at any time to quit"
 $lastName = read-host "What is the last name of the person you are looking for?"
